@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Karen Delgado">
+    <meta name="description" content="Portafolio de desarrollo web de Karen Delgado">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Karen Delgado | Desarrollo de página Web Front-End</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/idea-creativa blanco.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Conectando iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- Conexion CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/idea-creativa blanco.png" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Mis Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/IMG_2040.JPG" alt="Foto de Karen Delgado">
+        <h1>Hola, soy Karen Delgado</h1>
+        <h2> Cosas sobre mi </h2>
+        <!--<h2>Desarrollo sitios web y escribo artículos sobre programación.</h2>-->
+
+        <!--Animación con JavaScript-->
+      <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="imagenes/diseno industrial.png" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce sobre mi...</h2>
+        <p class="seccion-texto">Mi nombre es Ana Karen Delgado Neyra, tengo 22 años y soy diseñadora industrial en proceso. 
+
+          Soy una persona muy adaptable a los cambios, se me facilita ya que tengo habilidades sociales muy desarrolladas. 
+          Me  gusta liderar y organizar por lo que soy hábil trabajando en equipo y delegando responsabilidades.
+          
+          Disfruto mucho de la cultura mexicana, las artesanías y los colores que nos representan, todo esto muchas veces forma parte de mi inspiración al diseñar.</p>
+       <!-- Imagen abajo del parrafo -->
+        <img src="" alt="">
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo Web</p>
+            <p> Desarrolle habilidades y conocimientos de Programación Front-End utilizando HTML5, CSS3, Bootsrap al igual que el uso de páginas web como Github y Netlify en el bootcamp de Tecnolochicas PRO 2023.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">Bootsrap</span>
+            </div>
+          </div>
+          <!-- Experiencia -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-envelope-check-fill"></i>
+            <p class="experiencia-titulo">Experiencia</p>
+            <ul>
+              <li>Encargada del área de ventas y producción de empresa independiente "Delifresas".</li>
+              <li>Encargada general y fundadora de la marca de collares artesanales "Xolot".</li>
+              <li>Auxiliar en educación de alumnos preescolares de manera personalizada.</li>
+            </ul>
+      
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Trabajo en equipo</span>
+              <span class="badge text-bg-primary">Liderazgo</span>
+              <span class="badge text-bg-primary">Creatividad</span>
+              <span class="badge text-bg-primary">Resolución de problemas</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-arrow-right-circle-fill"></i>
+            <p class="experiencia-titulo">Educación y habilidades técnicas</p>
+            <p>Licenciatura en Diseño Industrial en la Universidad Autónoma del Estado de México.</p>
+
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Diseño web responsive</span>
+              <span class="badge text-bg-primary">AutoCAD</span>
+              <span class="badge text-bg-primary">Fusion 360</span>
+              <span class="badge text-bg-primary">Inglés (Nivel Avanzado)</span>
+              <span class="badge text-bg-primary">Excel</span>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   <!-- Proyectos -->
+   <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+    <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+    <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+    <!-- Galeria de Proyectos -->
+    <div class="container text-center proyectos-contenedor">
+      <div class="row">
+
+     <!-- Proyecto 1 -->
+     <div class="col-12 col-md-6 col-lg-4">
+      <div class="proyecto">
+        <img src="imagenes/Google pixel logo.png" alt="Proyecto 1">
+        <div class="overlay">
+          <p>Proyecto 1</p>
+          <div class="iconos-contenedor">
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-github"></i>
+            </a>
+            <a href="https://bootcamp-google.netlify.app/" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-laptop"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Proyecto 2 -->
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="proyecto">
+        <img src="imagenes/Nasa foto.png" alt="Proyecto 1">
+        <div class="overlay">
+          <p>Proyecto 2</p>
+          <div class="iconos-contenedor">
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-github"></i>
+            </a>
+            <a href="https://web-espacial-26.netlify.app" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-laptop"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Proyecto 3 -->
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="proyecto">
+        <img src="imagenes/proyecto3.png" alt="Proyecto 1">
+        <div class="overlay">
+          <p>Perfil Linkedin</p>
+          <div class="iconos-contenedor">
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/karen-delgado-8507a7285/" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-laptop"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+<a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+  <button type="button" class="btn btn-info">
+    Ver más proyectos
+    <i class="bi bi-arrow-right-circle-fill"></i>
+  </button>
+</a>
+</section>
+
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">Estos son algunos testimonios de mis clientes...</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/Jessica mentora.jpg" alt="Foto de Jessi">
+              <p class="testimonio-texto">Ha demostrado ser una estudiante excepcional, destacando por su dedicación y compromiso con el aprendizaje. Asimismo, su actitud colaborativa y disposición para trabajar en equipo han sido notables, brindando un valioso aporte a sus compañeras de clase.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Jessica Sanchez</p>
+                <p class="cargo">Licencia en Pedagogía. Mentora en Tecnolochicas.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/Sergio Testimonio .jpeg" alt="Foto de Sergio">
+              <p class="testimonio-texto">Karen Delgado tiene una excelente habilidad para resolver problemas con ideas rápidas y eficientes que permiten concluir proyectos con éxito. Al igual es excelente para administrar y delegar sobre las tareas a los miembros de un equipo.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Sergio Zdenko</p>
+                <p class="cargo">Licenciado en Diseño industrial</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/Miguel Testimonio.JPG" alt="Foto de Leonardo">
+              <p class="testimonio-texto">Karen ha demostrado ser una persona muy comprometida y disciplinada al momento de realizar proyectos, siempre busca que se entreguen con la mayor calidad posible y sobretodo en el tiempo y en la forma que fueron solicitados.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Miguel Rincón</p>
+                <p class="cargo">Licenciado en Comercio y Negocios Internacionales</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contáctame para iniciar tu proyecto de desarrollo web con aplicaciones de diseño y haré que tu sueño se vuelva una realidad.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:karendelgadoneyra26@gmail.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/idea-creativa naranja.png" alt="Logo del portafolio">
+      <p class="footer-texto text-center">El diseño es llevar un pensamiento <br>a lo visual y a la realidad. </p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="https://github.com/Karendelgado26" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/karen-delgado-8507a7285/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/karendelgadoneyra/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:karendelgadoneyra26@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Karen Delgado (2023) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
